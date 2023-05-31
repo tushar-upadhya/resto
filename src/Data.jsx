@@ -32,37 +32,37 @@ export const recipes = [
         id: 1,
         image: recipe1,
         name: "Recipe Name",
-        price: "$20",
+        price: "₹ 200",
     },
     {
         id: 2,
         image: recipe2,
         name: "Recipe Name",
-        price: "$13",
+        price: "₹ 130",
     },
     {
         id: 3,
         image: recipe3,
         name: "Recipe Name",
-        price: "$17",
+        price: "₹ 170",
     },
     {
         id: 4,
         image: recipe4,
         name: "Recipe Name",
-        price: "$22",
+        price: "₹ 220",
     },
     {
         id: 5,
         image: recipe5,
         name: "Recipe Name",
-        price: "$14",
+        price: "₹ 140",
     },
     {
         id: 6,
         image: recipe6,
         name: "Recipe Name",
-        price: "$20",
+        price: "₹ 200",
     },
 ];
 

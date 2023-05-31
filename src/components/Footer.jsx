@@ -69,7 +69,7 @@ const Footer = () => {
                     {footerContacts.map((footerContact) => {
                         return (
                             <div
-                                className="flex items-center gap-4 mb-4"
+                                className="flex items-center gap-4 mb-4 cursor-pointer"
                                 key={footerContact.id}
                             >
                                 <div className="text-xl">
@@ -87,7 +87,7 @@ const Footer = () => {
                     &copy;{new Date().getFullYear()} All Rights Reserved ||
                     Designed and Coded by{" "}
                     <a
-                        className="hover:text-[#475569] font-semibold duration-300"
+                        className="hover:text-[#475569] font-semibold duration-300 hover:text-violet-600"
                         target="_blank"
                         href="https://tusharupadhyay.vercel.app/"
                     >

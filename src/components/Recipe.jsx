@@ -11,13 +11,13 @@ const Recipe = () => {
                     {recipes.map((recipe) => {
                         return (
                             <div
-                                className=" p-4 shadow-lg hover:shadow transition-all duration-300 cursor-pointer"
+                                className=" p-4 shadow-lg hover:shadow transition-all duration-300"
                                 key={recipe.id}
                             >
                                 <img
                                     src={recipe.image}
-                                    alt=""
-                                    className="rounded-lg mb-4"
+                                    alt="recipe_image"
+                                    className="rounded-lg mb-4 h-60"
                                 />
                                 <div className="flex justify-between mb-4">
                                     <div className="md:text-xl text-[1rem] font-semibold">
