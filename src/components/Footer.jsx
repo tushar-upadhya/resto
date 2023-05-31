@@ -26,7 +26,7 @@ const Footer = () => {
                                     className="text-xl transition duration-500 hover:scale-125"
                                     key={index}
                                 >
-                                    <a href={footerSocial.url}>
+                                    <a href={footerSocial.url} target="_blank">
                                         {footerSocial.icon}
                                     </a>
                                 </div>
@@ -88,6 +88,7 @@ const Footer = () => {
                     Designed and Coded by{" "}
                     <a
                         className="hover:text-[#475569] font-semibold duration-300"
+                        target="_blank"
                         href="https://tusharupadhyay.vercel.app/"
                     >
                         Tushar Upadhyay

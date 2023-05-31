@@ -68,7 +68,10 @@ export const recipes = [
 
 export const footerSocials = [
     { url: "https://github.com/tushar-upadhya/resto", icon: <TbBrandGithub /> },
-    { url: "https://example-url-2.com", icon: <FiLinkedin /> },
+    {
+        url: "https://www.linkedin.com/in/tushar-upadhyay-54029b135/",
+        icon: <FiLinkedin />,
+    },
 ];
 
 export const footerContacts = [
