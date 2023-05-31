@@ -8,17 +8,17 @@ import Recipe from "./components/Recipe";
 import Footer from "./components/Footer";
 
 const App = () => {
-  return (
-    <div className="font-poppins bg-back">
-      <Header />
-      <NavIcon />
-      <Home />
-      <About />
-      <Recipe />
-      <Contact />
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="font-poppins bg-back">
+            <Header />
+            {/* <NavIcon /> */}
+            <Home />
+            <About />
+            <Recipe />
+            <Contact />
+            <Footer />
+        </div>
+    );
 };
 
 export default App;
