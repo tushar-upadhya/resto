@@ -17,7 +17,7 @@ const Recipe = () => {
                                 <img
                                     src={recipe.image}
                                     alt="recipe_image"
-                                    className="rounded-lg mb-4 h-60"
+                                    className="rounded-lg mb-4 h-60 "
                                 />
                                 <div className="flex justify-between mb-4">
                                     <div className="md:text-xl text-[1rem] font-semibold">

@@ -23,7 +23,7 @@ const Footer = () => {
                         {footerSocials.map((footerSocial, index) => {
                             return (
                                 <div
-                                    className="text-xl transition duration-500 hover:scale-125"
+                                    className="text-xl hover:text-[#475569] font-semibold duration-300"
                                     key={index}
                                 >
                                     <a href={footerSocial.url} target="_blank">
@@ -87,7 +87,7 @@ const Footer = () => {
                     &copy;{new Date().getFullYear()} All Rights Reserved ||
                     Designed and Coded by{" "}
                     <a
-                        className="hover:text-[#475569] font-semibold duration-300 hover:text-violet-600"
+                        className="hover:text-[#475569] font-semibold duration-300 "
                         target="_blank"
                         href="https://tusharupadhyay.vercel.app/"
                     >
